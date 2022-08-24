@@ -1,10 +1,7 @@
 <template>
   <el-button>I am ElButton</el-button>
+  <Dialog />
 </template>
-<script>
-  import { ElButton } from 'element-plus'
-  export default {
-    components: { ElButton },
-  }
+<script lang="ts" setup>
+import { ElButton } from "element-plus";
 </script>
-
