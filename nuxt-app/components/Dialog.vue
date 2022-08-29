@@ -1,7 +1,7 @@
 <template>
-  <el-button text @click="dialogVisible = true"
-    >click to open the Dialog</el-button
-  >
+  <el-button text @click="dialogVisible = true">
+    click to open the Dialog
+  </el-button>
 
   <el-dialog
     v-model="dialogVisible"
