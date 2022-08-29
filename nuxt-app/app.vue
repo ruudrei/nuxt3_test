@@ -1,7 +1,7 @@
 <template>
-  <el-button>I am ElButton</el-button>
-  <Dialog />
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
-<script lang="ts" setup>
-import { ElButton } from "element-plus";
-</script>
